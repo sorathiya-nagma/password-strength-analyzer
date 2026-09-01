@@ -1,0 +1,234 @@
+body{
+
+background:#0f172a;
+
+font-family:Poppins,sans-serif;
+
+overflow:hidden;
+
+}
+.welcome-text{
+    color:#cbd5e1;
+}
+
+.remember-text{
+    color:white;
+}
+
+.register-text{
+    color:white;
+}
+
+.register-text a{
+    color:#3b82f6;
+    text-decoration:none;
+}
+
+.register-text a:hover{
+    color:#60a5fa;
+}
+.form-control::placeholder{
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+/* Left Side */
+
+.left-side{
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+padding:60px;
+
+background:#111827;
+
+text-align:center;
+
+}
+
+.login-image{
+
+width:80%;
+
+max-width:450px;
+
+margin-bottom:30px;
+
+animation:float 5s ease-in-out infinite;
+
+}
+
+.left-side h1{
+
+color:white;
+
+font-size:2.8rem;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+}
+
+.left-side p{
+
+color:#94a3b8;
+
+font-size:1.1rem;
+
+line-height:1.8;
+
+max-width:500px;
+
+}
+
+/* Right Side */
+
+.right-side{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.login-card{
+
+width:420px;
+
+padding:40px;
+
+background:#1e293b;
+
+border-radius:20px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.45);
+
+}
+
+.login-card h2{
+
+text-align:center;
+
+color:white;
+
+font-weight:700;
+
+margin-bottom:10px;
+
+}
+
+.login-card label{
+
+color:white;
+
+margin-bottom:8px;
+
+display:block;
+
+}
+
+.form-control{
+
+background:#0f172a;
+
+border:1px solid #334155;
+
+color:white;
+
+padding:12px;
+
+}
+
+.form-control:focus{
+
+background:#0f172a;
+
+color:white;
+
+border-color:#2563eb;
+
+box-shadow:none;
+
+}
+
+.btn-primary{
+
+background:#2563eb;
+
+border:none;
+
+padding:12px;
+
+font-weight:600;
+
+border-radius:10px;
+
+}
+
+.btn-primary:hover{
+
+background:#1d4ed8;
+
+}
+
+.input-group .btn{
+
+background:#0f172a;
+
+color:white;
+
+border:1px solid #334155;
+
+}
+
+a{
+
+text-decoration:none;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-15px);
+
+}
+
+100%{
+
+transform:translateY(0);
+
+}
+
+}
+
+@media(max-width:992px){
+
+.left-side{
+
+display:none;
+
+}
+
+.login-card{
+
+width:90%;
+
+}
+
+}

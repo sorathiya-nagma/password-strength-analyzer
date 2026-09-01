@@ -1,0 +1,202 @@
+/* ===========================================
+   CipherGuard - Features Page
+=========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    color:#ffffff;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+   Navbar
+=========================== */
+
+.navbar{
+    background:#111827 !important;
+    padding:15px 0;
+}
+
+.navbar-brand{
+    font-size:2rem;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#ffffff !important;
+    margin-left:20px;
+    transition:.3s;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:#3b82f6 !important;
+}
+
+/* ===========================
+   Hero Section
+=========================== */
+
+.hero{
+    padding:90px 0 70px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#94a3b8;
+    font-size:1.1rem;
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* ===========================
+   Features
+=========================== */
+
+.features{
+    padding:70px 0;
+}
+
+.feature-card{
+
+    background:#1e293b;
+
+    border:1px solid #334155;
+
+    border-radius:18px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:.35s;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#3b82f6;
+
+    box-shadow:0 15px 40px rgba(59,130,246,.25);
+}
+
+.feature-icon{
+
+    font-size:3rem;
+
+    color:#3b82f6;
+
+    margin-bottom:20px;
+
+    display:block;
+}
+
+.feature-card h4{
+
+    font-size:1.4rem;
+
+    font-weight:600;
+
+    margin-bottom:15px;
+}
+
+.feature-card p{
+
+    color:#cbd5e1;
+
+    line-height:1.7;
+
+    font-size:.98rem;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+
+    margin-top:70px;
+
+    background:#111827;
+
+    padding:35px 0;
+
+    border-top:1px solid #334155;
+}
+
+footer h3{
+
+    font-weight:700;
+
+    margin-bottom:10px;
+}
+
+footer p{
+
+    color:#94a3b8;
+
+    margin-bottom:0;
+}
+
+/* ===========================
+   Buttons (Optional)
+=========================== */
+
+.btn-primary{
+
+    background:#2563eb;
+
+    border:none;
+
+    border-radius:30px;
+
+    padding:12px 28px;
+
+    transition:.3s;
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+    .hero h1{
+
+        font-size:2.3rem;
+    }
+
+    .hero p{
+
+        font-size:1rem;
+    }
+
+    .feature-card{
+
+        padding:25px 20px;
+    }
+
+}

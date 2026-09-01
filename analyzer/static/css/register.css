@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ body{
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,15,40,0.70)),
+        url("../image/register_bgr.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Register Card */
+
+.register-box{
+
+    width:420px;
+
+    padding:40px;
+
+    background:rgba(10,20,40,.45);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.18);
+
+    border-radius:20px;
+
+    box-shadow:
+    0 0 35px rgba(0,140,255,.30);
+
+}
+
+/* Heading */
+
+.register-box h2{
+
+    text-align:center;
+
+    color:white;
+
+    font-size:32px;
+
+    margin-bottom:30px;
+
+    letter-spacing:1px;
+
+}
+
+/* Labels */
+
+label{
+
+    display:block;
+
+    margin-top:18px;
+
+    margin-bottom:8px;
+
+    color:white;
+
+    font-size:15px;
+
+    font-weight:bold;
+
+}
+
+/* Inputs */
+
+input{
+
+    width:100%;
+
+    padding:13px 15px;
+
+    border-radius:10px;
+
+    border:1px solid rgba(255,255,255,.20);
+
+    background:rgba(255,255,255,.08);
+
+    color:white;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+input::placeholder{
+
+    color:#c8d2e4;
+
+}
+
+input:focus{
+
+    border:1px solid #00a2ff;
+
+    box-shadow:0 0 12px rgba(0,162,255,.55);
+
+    background:rgba(255,255,255,.12);
+
+}
+
+/* Button */
+
+button{
+
+    width:100%;
+
+    margin-top:28px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#007bff;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#005ce6;
+
+    box-shadow:0 0 20px #008cff;
+
+    transform:translateY(-2px);
+
+}
+
+/* Login Link */
+
+.login-link{
+
+    margin-top:22px;
+
+    text-align:center;
+
+}
+
+.login-link span{
+
+    color:#d6dceb;
+
+}
+
+.login-link a{
+
+    color:#4db8ff;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+.login-link a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .register-box{
+
+        width:90%;
+
+        padding:30px;
+
+    }
+
+    .register-box h2{
+
+        font-size:28px;
+
+    }
+
+}
