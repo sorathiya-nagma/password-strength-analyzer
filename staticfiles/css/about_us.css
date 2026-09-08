@@ -1,0 +1,204 @@
+/* ===========================================
+   About Page - CipherGuard
+=========================================== */
+
+.about{
+    padding:80px 0;
+    background:#0f172a;
+    color:#fff;
+}
+
+.about h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.about h2{
+    font-size:2.2rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.about h3{
+    font-size:1.8rem;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.about p{
+    color:#cbd5e1;
+    line-height:1.8;
+    font-size:1.05rem;
+}
+
+.about-img{
+    width:100%;
+    max-width:450px;
+    border-radius:20px;
+    transition:.4s ease;
+}
+
+.about-img:hover{
+    transform:scale(1.05);
+}
+
+/* ===========================
+   Features
+=========================== */
+
+.about .mb-3{
+    background:#1e293b;
+    padding:12px 18px;
+    border-radius:10px;
+    margin-bottom:15px !important;
+    transition:.3s;
+}
+
+.about .mb-3:hover{
+    background:#2563eb;
+    transform:translateX(8px);
+}
+
+/* ===========================
+   Mission Section
+=========================== */
+
+.mission{
+    padding:80px 0;
+    background:#0f172a;
+}
+
+.mission p{
+    max-width:850px;
+    margin:auto;
+    color:#cbd5e1;
+    line-height:1.8;
+}
+.mission-text{
+    color:#dbeafe;
+}
+
+.mission-title{
+    color: #ffffff;   /* White */
+}
+/* ===========================
+   Technologies
+=========================== */
+
+.tech{
+    padding:80px 0;
+    background:#0f172a;
+}
+
+.tech .col-md-3{
+    background:#1e293b;
+    border-radius:15px;
+    padding:30px;
+    transition:.3s;
+    margin-bottom:25px;
+}
+
+.tech .col-md-3:hover{
+    transform:translateY(-10px);
+    background:#2563eb;
+}
+
+.tech i{
+    font-size:3rem;
+}
+
+.tech h5{
+    margin-top:15px;
+    font-weight:600;
+}
+
+.tech-title{
+    color: #ffffff;   /* White */
+}
+
+.tech-text{
+    color:#dbeafe;
+}
+
+
+/* ===========================
+   Developer Card
+=========================== */
+
+.developer{
+    padding:80px 0;
+    background:#0f172a;
+}
+
+.developer .card{
+    background:#658ccf;
+    border:none;
+    border-radius:20px;
+    color:#fff;
+    padding:40px;
+    transition:.3s;
+}
+
+.developer .card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 40px rgba(189, 196, 212, 0.3);
+}
+
+.developer h2{
+    margin-bottom:20px;
+}
+
+.developer h4{
+    color:#60a5fa;
+    margin-bottom:10px;
+}
+
+.developer p{
+    color:#dbeafe;
+}
+
+.developer-text{
+    color:#dbeafe;
+}
+/* ===========================
+   Buttons
+=========================== */
+
+.about .btn-primary{
+    background:#2563eb;
+    border:none;
+    border-radius:30px;
+    padding:12px 28px;
+}
+
+.about .btn-primary:hover{
+    background:#1d4ed8;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+    .about{
+        text-align:center;
+    }
+
+    .about-img{
+        margin-bottom:40px;
+    }
+
+    .about h1{
+        font-size:2.3rem;
+    }
+
+    .about h2{
+        font-size:1.8rem;
+    }
+
+    .about h3{
+        font-size:1.5rem;
+    }
+}
